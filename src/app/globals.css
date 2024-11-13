@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        color : #fff;
+        background : linear-gradient(135deg , #272929 , #1f1301 , #383939) ;
+    }
+}
+
+@layer components {
+    .menulink {
+        @apply cursor-pointer hover:text-[#977a2a];
+    }
+
+    .tags {
+        background-color: #020505;
+        margin-right : 0.5rem ;
+        margin-top : 0.5rem; 
+    }
+
+}
+
