@@ -1,17 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+    
 @layer base {
     body {
-        color : #fff;
-        background : linear-gradient(135deg , #272929 , #1f1301 , #383939) ;
+        color : #fbfaf8;
+        background : linear-gradient( 145deg , #090909 , #215151, #090909) ;
     }
 }
 
 @layer components {
     .menulink {
-        @apply cursor-pointer hover:text-[#977a2a];
+        @apply cursor-pointer font-bold  hover:bg-[#977a2a];
     }
 
     .tags {
@@ -20,8 +20,8 @@
         margin-top : 0.5rem; 
         padding : 3px  10px ;
         display: inline-block ;
-        color : #fff ;
-        font-size : 12px ;
+        color : #0a0101 ;
+        font-size : 15px ;
 
     }
     .tags:last-child {
@@ -39,9 +39,10 @@
 
     }
     .tags:nth-child(4){
-        background-color : #db9f10;
+        background-color : #41bedd;
 
     }
+
 
 }
 

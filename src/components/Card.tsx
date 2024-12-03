@@ -11,9 +11,9 @@ interface propsType {
 
 const Card : React.FC<propsType> = ({title, desc, img, tags}) => {
   return (
-    <div className='border border-accent w-[300px] sm:w-[350px]'>
+    <div className='border border-separate w-[300px] sm:w-[450px]'>
       <div>
-        <Image  className='w-[300px] sm:w-[350px] h-auto'
+        <Image  className='w-[300px] sm:w-[450px] h-auto'
         src={img}
         width={350}
         height={350}

@@ -8,7 +8,7 @@ const data = [
         title : "Attendance Card",
         desc : "It is a Html Css & Javascript based card for collect student's attendance.",
         img : "/project-1.jpg",
-        tags : ["Html" , "Css" , "Javascript"],
+        tags : ["Html" , "Css" , "Javascript" , "Typescript"],
     },
 
     {
@@ -16,7 +16,7 @@ const data = [
         title : "Simple Portfolio",
         desc : "It is a Html & Css based project which is simple portolio.",
         img : "/project-2.jpg",
-        tags : ["Html" , "Css"],
+        tags : ["Html" , "Css" , "Typescript"],
     },
 
     {
@@ -24,7 +24,7 @@ const data = [
         title : "Calculator",
         desc : "It is a Html Css & Javascript based project a simple calculator.",
         img : "/project-3.jpg",
-        tags : ["Html" , "Css" , "Javascript"],
+        tags : ["Html" , "Css" , "Javascript" , "Next.js"],
     },
 
     {
@@ -32,7 +32,7 @@ const data = [
         title : "Static Interactive Resume",
         desc : "It is a Html Css & Typescript based project of resume builder.",
         img : "/project-4.jpg",
-        tags : ["Html" , "Css" , "Typescript"],
+        tags : ["Html" , "Css" , "Typescript" ],
     },
 
     {
